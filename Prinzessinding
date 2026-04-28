@@ -1,0 +1,38 @@
+public class PRINZESSIN
+{
+    private String vorname;
+    private boolean biologieInteressiert;
+    
+    public PRINZESSIN()
+    {
+        vorname = "Feline";
+        biologieInteressiert = true;
+    }
+    
+    public PRINZESSIN(String vorname, boolean biologieInteressiert)
+    {
+        this.vorname = vorname;
+        this.biologieInteressiert = biologieInteressiert;
+        
+    }
+    
+    public void setzeBiologieInteressiert(boolean biologieInteressiert)
+    {
+        this.biologieInteressiert = biologieInteressiert;
+    }
+    
+    public boolean nenneBiologieInteressiert()
+    {
+        return biologieInteressiert;
+    }
+    
+    public void setzeVorname(String vorname)
+    {
+        this.vorname = vorname;
+    }
+    
+    public String nenneVorname()
+    {
+        return vorname;
+    }
+}
