@@ -35,4 +35,32 @@ public class PRINZESSIN
     {
         return vorname;
     }
+    
+    public String futterBerechnen(int lebensEnergie, String farbe)
+    {
+        if (lebensEnergie < 50)
+        {
+            return "Wasser";
+        }
+        else if (lebensEnergie > 200)
+        {
+            return "Nichts";
+        }
+        else
+        {
+            if (farbe == "blau")
+            {
+                return "Fisch";
+            }
+            else if (farbe == "rot")
+            {
+                return "Erdbeeren";
+            }
+            else
+            {
+                return "Gras";
+            }
+        }
+    }
+    
 }
