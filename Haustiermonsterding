@@ -1,0 +1,14 @@
+public class HAUSTIERMONSTER extends WALDMONSTER
+{
+    public HAUSTIERMONSTER()
+    {
+        
+    }
+    @Override
+    public void schlagKassieren(int schlagkraft)
+    {
+        // Das Haustiermonster weicht aus und beginnt zu spielen
+        // Seine Lebensenergie steigt bei jedem versuchten Schlag um 10
+        this.lebensenergie+=10;
+    }
+}
